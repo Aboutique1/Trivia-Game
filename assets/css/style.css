@@ -41,12 +41,14 @@ body{
     text-align:center;
     display: none;
     margin:0 auto;
-    position:relative;
-    bottom:100px;
+    
 
 }
 
 #timeRemaining{
+    display: none;
+    position:relative;
+    bottom:100px;
     text-align:center;
 }
 
@@ -79,3 +81,28 @@ label:nth-child(even){
     bottom:4px;
 
 }
+
+#answers{
+    display:none;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    bottom:60px;
+}
+
+
+.resetButton{
+    margin:0 auto;
+    font-size:30px;
+    position: relative;
+    top:20px;
+}
+
+.correct{
+    color:green
+}
+
+.wrong{
+    color:red
+}
+
