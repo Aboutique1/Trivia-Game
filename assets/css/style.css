@@ -1,0 +1,81 @@
+html{
+   background: url(../images/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width:100%;
+}
+
+body{
+    margin: 0 auto;
+    margin-top:80px;
+    width:75%;
+    background:pink;
+    padding-bottom:110px;
+    padding-top:150px;
+
+}
+
+.startingTitle{
+    text-align: center;
+    font-size:85px;
+    position: relative;
+    bottom:165px;
+    
+}
+
+#startButton{
+    margin:0 auto;
+    width:260px;
+    height:80px;
+    display: block;
+    position: relative;
+    right:10px;
+    bottom: 105px;
+    font-size:30px;
+}
+
+.questions{
+    width:40%;
+    text-align:center;
+    display: none;
+    margin:0 auto;
+    position:relative;
+    bottom:100px;
+
+}
+
+#timeRemaining{
+    text-align:center;
+}
+
+.question{
+    height:200px;
+}
+
+.questionText{
+    width:600px;
+    text-align: center;
+    margin:0 auto;
+    position: relative;
+    right:115px;
+    padding:20px;
+}
+
+label{
+    font-size:20px;
+}
+
+label:nth-child(odd){
+    float:left;
+    margin-bottom:20px;
+}
+
+label:nth-child(even){
+    float:right;
+    clear:both;
+    position:relative;
+    bottom:4px;
+
+}
