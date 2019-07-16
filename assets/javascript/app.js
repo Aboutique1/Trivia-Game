@@ -64,7 +64,7 @@
 
         }
 
-        if(q3Choice=="227"){
+        if(q3Choice=="Golden Girls"){
             var thirdScore = secondScore +1
             console.log('q3Score: ', thirdScore)
             $('#q3Answer').addClass('correct').removeClass('wrong')
